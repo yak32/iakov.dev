@@ -2,7 +2,7 @@
 
 Personal blog of Iakov Sumygin, served by GitHub Pages at https://iakov.dev.
 
-Plain Jekyll, no theme: posts in `_posts/`, images in `assets/img/<year>/`, one stylesheet in `assets/css/style.css`.
+Plain Jekyll, no theme: posts in `_posts/`, images in `assets/img/<year>/`, one stylesheet in `assets/css/site.css`.
 
 ## Run locally
 

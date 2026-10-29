@@ -4,6 +4,7 @@ author: Iakov Sumygin
 url: https://iakov.dev
 baseurl: ""
 lang: en-GB
+theme: null
 
 github_username: yak32
 twitter:
