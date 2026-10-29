@@ -1,0 +1,46 @@
+title: Iakov Sumygin
+description: Notes on game engines, rendering, voxels and the games I build in my spare time.
+author: Iakov Sumygin
+url: https://iakov.dev
+baseurl: ""
+lang: en-GB
+
+github_username: yak32
+twitter:
+  username: yak32
+social:
+  name: Iakov Sumygin
+  links:
+    - https://github.com/yak32
+    - https://www.linkedin.com/in/yak32
+    - https://twitter.com/yak32
+
+permalink: /:year/:month/:title/
+timezone: Europe/London
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: default }
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle

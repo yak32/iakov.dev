@@ -1,0 +1,11 @@
+{%- comment -%}
+Click-to-play YouTube embed: shows the thumbnail and loads the player only on
+click, so a post with several videos stays light.
+{%- endcomment -%}
+<figure class="video">
+  <a href="https://www.youtube.com/watch?v={{ include.id }}" data-yt="{{ include.id }}"
+     onclick="this.outerHTML='<iframe src=&quot;https://www.youtube-nocookie.com/embed/'+this.dataset.yt+'?autoplay=1&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen></iframe>';return false;">
+    <img src="https://i.ytimg.com/vi/{{ include.id }}/hqdefault.jpg" alt="Video" loading="lazy">
+    <span class="play" aria-hidden="true"></span>
+  </a>
+</figure>

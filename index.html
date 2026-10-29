@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<section class="intro">
+  <p>I'm Iakov, a software engineer in London. Since 2009 I've been building a C++ game engine in my spare time, and games on top of it. This is where I write about rendering, voxels, tools and whatever I'm working on.</p>
+</section>
+
+{% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for year in years %}
+<section class="year">
+  <h2>{{ year.name }}</h2>
+  <ul class="post-list">
+    {% for post in year.items %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %-d' }}</time>
+      <div>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
