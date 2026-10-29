@@ -2,10 +2,12 @@
 title: Running Emscripten apps in fullscreen
 description: "How I made my Emscripten game demo fill the browser window with soft fullscreen and an SDL2 resize callback, with the code."
 date: 2019-10-16 12:13
-tags: [iron-cube, emscripten]
+tags: [iron-cube, web]
 image: /assets/img/2019/iron_cube_fullscreen.jpg
 ---
 I spent an evening getting my Emscripten game demo to run in fullscreen. Emscripten has two modes for this: "proper" fullscreen and soft fullscreen. The first works like fullscreen in a native app, but it doesn't seem to be supported in every browser. Soft fullscreen just resizes the app to fill the whole browser window, and that's exactly what I needed.
+
+<!--more-->
 
 It takes two steps, assuming you use SDL2 as your platform layer.
 

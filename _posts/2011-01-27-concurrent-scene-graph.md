@@ -3,11 +3,13 @@ title: Concurrent scene graph
 subtitle: Multithreading
 description: "Three ways to give physics, audio and rendering concurrent access to the Glow engine's scene graph, and the trade-offs of each."
 date: 2011-01-27 01:42
-tags: [engine]
+tags: [engine, rendering, physics, performance, android]
 ---
 I am thinking about a concurrent scene graph.
 
 Several modules in the engine need to query the scene graph: physics, audio, rendering. In the future, several threads (tasks) inside a single module will also need concurrent access to it.
+
+<!--more-->
 
 I see a few ways to do this:
 

@@ -2,7 +2,7 @@
 title: An NPC lit by several lights
 description: "A soldier NPC in the Glow engine, lit by several lights at once against a cloudy sky over the sea."
 date: 2011-03-21 09:58
-tags: [engine]
+tags: [engine, lighting]
 ---
 ![Soldier NPC in a helmet lit by several lights, with a cloudy sky over the sea behind him](/assets/img/2011/03/soldier_face.jpg)
 

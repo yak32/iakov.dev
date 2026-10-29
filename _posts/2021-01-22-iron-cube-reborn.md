@@ -2,10 +2,12 @@
 title: Iron Cube reborn
 description: "After a nine-month break I spent my Christmas holiday getting Iron Cube, my voxel tank game, properly released on Google Play."
 date: 2021-01-22 01:41
-tags: [voxel, game]
+tags: [voxel, game, ai, physics]
 youtube: MByiEEO_NS0
 ---
 After a 9-month break from my old pet project (I joined a new company), I have finally launched it properly on Google Play. I spent 2 weeks of my Christmas staycation getting it ready for release. It was at least something to take my mind off what is going on around us. My 12-year-old son made the music for the trailer and the game in GarageBand, and my 8-year-old daughter was head of QA.
+
+<!--more-->
 
 The game is here: [https://play.google.com/store/apps/details?id=com.yak32_games.iron_cube](https://play.google.com/store/apps/details?id=com.yak32_games.iron_cube). It has a staggering zero downloads so far, since it launched today and I have no idea how to promote it.
 

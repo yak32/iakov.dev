@@ -2,7 +2,7 @@
 title: Colour transformations as a post-process
 description: "The Glow engine gets a single-pass colour transformation post-process for contrast, brightness, black and white and RGB shifts."
 date: 2011-04-04 08:40
-tags: [engine]
+tags: [engine, rendering]
 ---
 I've added colour transformations to the Glow engine as a post-process.
 

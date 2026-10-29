@@ -2,7 +2,7 @@
 title: Post-processing pipeline started
 description: "A post-processing pipeline for the Glow engine, starting with camera motion blur built from the geometry buffer."
 date: 2010-12-15 16:08
-tags: [engine]
+tags: [engine, rendering, editor]
 ---
 I spent last week on post-processing, and the engine now has a pipeline for it. The first effect is motion blur done as a post-process and built from the geometry buffer, as described in [GPU Gems 3](https://developer.nvidia.com/gpugems/gpugems3/part-iv-image-effects/chapter-27-motion-blur-post-processing-effect). It can be safely disabled. My collection of papers is finally paying off.
 

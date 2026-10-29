@@ -3,12 +3,14 @@ title: Project Mercury
 subtitle: A voxel 3D mesh editor you control with your bare hands
 description: "Mercury, my entry for the Intel Perceptual Computing Challenge: a voxel sculpting prototype on the Glow engine controlled by hand gestures."
 date: 2013-02-22 09:32
-tags: [mercury, prototype]
+tags: [mercury, prototype, voxel, contest]
 youtube: y6779QOnh6A
 ---
 I entered the Intel Perceptual Computing Challenge with Project Mercury, a digital sculpting application. You edit a voxel-based 3D mesh with your bare hands.
 
 The prototype runs on the Glow engine and uses the voxel engine I wrote for the [Iron Cube](http://www.moddb.com/games/iron-cube) game. For Mercury I also wrote smooth mesh generation based on Surface Nets, which is a modification of Marching Cubes.
+
+<!--more-->
 
 The hand interface uses the [Intel Perceptual Computing SDK](http://software.intel.com/en-us/vcsource/tools/perceptual-computing-sdk) and the [Creative Interactive Gesture Camera Developer Kit](http://click.intel.com/intelsdk/Creative_Interactive_Gesture_Camera_Developer_Kit-P2061.aspx). The camera arrived one day before my deadline, so I had a single day to integrate it into the engine. To my surprise the integration took only a few hours. The SDK ships with a utility library that makes the camera's features easy to use.
 

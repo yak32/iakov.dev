@@ -2,7 +2,7 @@
 title: Glow engine videos from 2004 to 2020
 description: "Old videos of my Glow engine by year, from an architectural walkthrough and stencil shadows to Intel contest demos, Iron Cube and voxel prototypes."
 date: 2020-01-28 12:13
-tags: [engine]
+tags: [engine, lighting, voxel, contest]
 ---
 ### 2003-2004
 
@@ -11,6 +11,8 @@ A walkable visualisation of the Ministry of Textile in my home country. I worked
 The whole building:
 
 {% include youtube.html id="LJe47gGmVp4" %}
+
+<!--more-->
 
 The minister's office:
 

@@ -2,7 +2,7 @@
 title: Auto-reloading resources
 description: "The Glow editor now reloads scripts, textures, models and shaders automatically when you switch back from Photoshop or 3ds Max."
 date: 2010-11-23 07:17
-tags: [engine]
+tags: [engine, rendering, editor]
 ---
 [![A wooden structure on the landscape in the editor, with the property panel open](/assets/img/2010/editor4-71244c.jpg)](/assets/img/2010/editor4-5a6603.jpg)
 

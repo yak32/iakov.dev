@@ -2,7 +2,7 @@
 title: Moving to Intel Threading Building Blocks
 description: "Why the Glow engine's task system is switching from the experimental boost::thread_pool to Intel Threading Building Blocks."
 date: 2011-01-31 05:22
-tags: [engine]
+tags: [engine, performance]
 ---
 I'm getting deeper into concurrency and multithreading, and I've decided to use [Intel Threading Building Blocks](https://github.com/uxlfoundation/oneTBB) instead of the experimental [boost::thread_pool](http://threadpool.sourceforge.net/).
 

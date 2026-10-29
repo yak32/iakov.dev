@@ -2,7 +2,7 @@
 title: The Leap Motion controller has arrived
 description: "My Leap Motion developer unit arrived today. First tests look responsive and precise, and I plan to integrate the Leap SDK into Glow."
 date: 2013-01-22 15:42
-tags: [prototype, leap-motion]
+tags: [prototype, leap-motion, android]
 image: /assets/img/2013/01/IMG_5677.jpg
 youtube: y1zIgzqq1gw
 ---

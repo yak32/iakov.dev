@@ -3,7 +3,7 @@ title: My tank game for the Ultrabook contest is nearly done
 subtitle: Going deeper with my tank game
 description: "My tank game for the Intel Ultrabook contest is close to finished, but I still don't have a Symantec certificate to sign the code."
 date: 2012-11-23 11:42
-tags: [game, iron-cube]
+tags: [game, iron-cube, contest]
 image: /assets/img/2012/11/tank_game.jpg
 ---
 My game for the Intel Ultrabook contest is close to finished. The screenshot shows where it is now: voxel terrain around a small lake that reflects the clouds, with rows of blocky trees on the hills behind.

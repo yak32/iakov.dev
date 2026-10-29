@@ -2,11 +2,13 @@
 title: Feedback from the IGF judges
 description: "What the IGF judges said about my zombie game: they liked the intro and criticised the level design, lighting and audio."
 date: 2010-01-11 02:10
-tags: [game]
+tags: [game, lighting, contest]
 ---
 The IGF judges have sent their comments on my game, Little Zombie Susie. They are right. I spent more time on graphics and programming than on the gameplay and the level.
 
 So from now on I want more time on gameplay and play testing, fresh ideas, design documents and so on.
+
+<!--more-->
 
 Here are the comments as I received them.
 

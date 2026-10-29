@@ -2,7 +2,7 @@
 title: Geometry optimisation for voxel meshes
 description: "A new voxel mesh generator cuts vertex data by a factor of three to four, at the cost of slightly slower generation."
 date: 2012-08-20 13:04
-tags: [engine, voxel]
+tags: [engine, voxel, lighting, performance]
 image: /assets/img/2012/08/screen_detail1.jpg
 ---
 I've optimised the mesh generation. Until now the voxel mesh was generated as is, and the only thing I removed was the internal faces. That produces a huge amount of vertex data, which is slow to load into the GPU, slow to process on the CPU, and so on.

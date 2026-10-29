@@ -2,7 +2,7 @@
 title: The Sponza lion in the Glow engine
 description: "A close-up of the lion head relief from the Sponza model, lit by small coloured lights in the Glow engine editor."
 date: 2011-03-09 16:05
-tags: [engine]
+tags: [engine, rendering, lighting, editor]
 ---
 [![Lion head relief from the Sponza model in the Glow engine editor](/assets/img/2011/editor_spanza_1-26e871.jpg)](/assets/img/2011/editor_spanza_1-276098.jpg)
 

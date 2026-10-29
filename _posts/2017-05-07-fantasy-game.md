@@ -3,7 +3,7 @@ title: A voxel adventure game prototype
 subtitle: An untitled game prototype
 description: "Video of an isometric, Zelda-like voxel adventure prototype on my Glow3D engine, with art by Sir carma, MagicaVoxel import and NVIDIA HBAO+."
 date: 2017-05-07 23:13
-tags: [game]
+tags: [game, lighting, voxel]
 youtube: dsCfWE7WE1c
 ---
 This is a video of the voxel [game prototype](/2017/04/voxel-project/) I built on my **Glow3D** engine a while ago. The idea was something like the original Zelda: an isometric adventure, but made of voxels. The art in the video is by [Sir carma](https://twitter.com/sir_carma?lang=en).

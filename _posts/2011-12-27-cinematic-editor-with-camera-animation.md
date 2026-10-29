@@ -3,7 +3,7 @@ title: Cinematic editor
 subtitle: Editing cinematics and animating the camera
 description: "The Glow engine editor can now animate the camera like any other entity, with keyframes set from the frame slider."
 date: 2011-12-27 14:36
-tags: [engine]
+tags: [engine, editor]
 youtube: shtGSepC0WA
 ---
 The camera can now be animated like any other entity in the editor. Drag the frame slider, then change the object's position, orientation or scale, and the editor creates an animation key. Between key frames the object's position is interpolated.

@@ -2,7 +2,7 @@
 title: Debug views in the Glow engine
 description: "The Glow engine editor gets debug modes for wireframe, normals, depth, lights, physics, AI triggers and navigation meshes."
 date: 2011-03-02 11:06
-tags: [engine]
+tags: [engine, lighting, ai, physics, editor]
 ---
 When you're building a game level you need to see debugging information about the level and its models. I used to place every object, lights included, in 3ds Max, and it was slow going: tweak the lighting in 3ds Max, switch to the engine, check the lighting, and round again.
 

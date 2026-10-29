@@ -3,7 +3,7 @@ title: Path tracing voxels, day 1
 subtitle: Actually day 2
 description: "Adding a path tracer to my voxel engine after Ray Tracing in One Weekend: voxel ray casting, importance-sampled sunlight and going from 0.4M to 5M rays per second."
 date: 2019-10-16 12:13
-tags: [voxel, raytracing]
+tags: [voxel, rendering, lighting, performance]
 image: /assets/img/2019/raytracing_blog.png
 ---
 ### Ray Tracing in One Weekend
@@ -13,6 +13,8 @@ I was reading the excellent [Ray Tracing in One Weekend](https://www.realtimeren
 ### How it works
 
 A ray goes from the camera through each pixel on the screen. You find where it hits the scene and then work out where the ray goes next. On a diffuse surface the ray scatters in a random direction, a metal surface reflects it, and glass either reflects or refracts it. [The book](https://www.realtimerendering.com/raytracing/Ray%20Tracing%20in%20a%20Weekend.pdf) explains this better than I can here.
+
+<!--more-->
 
 ### Ray casting
 

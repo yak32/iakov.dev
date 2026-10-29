@@ -2,7 +2,7 @@
 title: First OpenGL screenshot
 description: "The first screenshot of Tarta on the Glow engine's new OpenGL renderer, after a quick port to GCC and Linux."
 date: 2012-05-10 02:25
-tags: [engine]
+tags: [engine, rendering]
 image: /assets/img/2012/05/opengl_first_screen1.jpg
 ---
 This is the first screenshot of the Tarta game running on the OpenGL renderer. There's nothing special in it, but it matters to me: the scheme for cross-platform development that I chose a long time ago finally works.

@@ -2,7 +2,7 @@
 title: November editor plan done
 description: "Over 30 editor tasks finished in November: editable scaling, asset previews, simple skyboxes and new gizmos."
 date: 2010-12-05 19:07
-tags: [engine]
+tags: [engine, editor]
 ---
 [![Houses under a dark sky in the editor, with the material properties panel open](/assets/img/2010/editor5-6456aa.jpg)](/assets/img/2010/editor5-ba8349.jpg)
 

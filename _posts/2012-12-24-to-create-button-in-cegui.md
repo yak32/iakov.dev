@@ -3,7 +3,7 @@ title: CEGUI vs IMGUI
 subtitle: Bloated UI
 description: "Creating one button in CEGUI takes five lines of setup code. An immediate-mode GUI does the same job in a single if statement."
 date: 2012-12-24 10:58
-tags: [engine]
+tags: [engine, gui]
 ---
 This is the code to create a button in CEGUI:
 

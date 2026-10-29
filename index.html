@@ -1,26 +1,39 @@
 ---
 layout: default
 ---
+{% if paginator.page == 1 %}
 <img class="hero" src="{{ '/assets/img/aez-banner.jpg' | relative_url }}" width="1400" height="560" alt="A soldier in a hazmat suit with a shotgun, in a tunnel beside a wrecked Underground train">
 
 <section class="intro">
-  <p>I'm Iakov, a software engineer in London. Since 2009 I've been building a C++ game engine in my spare time, and games on top of it. This is where I write about rendering, voxels, tools and whatever I'm working on.</p>
+  <p>I'm Iakov, a software engineer living in London. My day job has been in large products: Snapchat at Snap, Amazon Prime Video on PlayStation and Apple TV at Amazon, graphics work on World of Tanks at Wargaming/BigWorld, and firmware for Samsung TVs.</p>
+  <p>Since 2009 I've been building a C++ game engine in my spare time, and games on top of it. This is where I write about rendering, voxels, tools and whatever I'm working on.</p>
 </section>
+{% endif %}
 
-{% assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
-{% for year in years %}
-<section class="year">
-  <h2>{{ year.name }}</h2>
-  <ul class="post-list">
-    {% for post in year.items %}
-    <li>
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %-d' }}</time>
-      <div>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
+{% for post in paginator.posts %}
+<article class="card">
+  <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  {% include post-meta.html post=post %}
+
+  {% if post.youtube %}
+    {% include youtube.html id=post.youtube %}
+  {% elsif post.image %}{% unless post.excerpt contains post.image %}
+    <p><a href="{{ post.url | relative_url }}"><img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" loading="lazy"></a></p>
+  {% endunless %}{% endif %}
+
+  <div class="excerpt">{{ post.excerpt | replace: '<img ', '<img loading="lazy" ' }}</div>
+
+  <footer class="card-footer">
+    {% include tags.html tags=post.tags %}
+    {% if post.content contains '<!--more-->' %}<a class="read-more" href="{{ post.url | relative_url }}">Read more</a>{% endif %}
+  </footer>
+</article>
 {% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<nav class="pager">
+  {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer posts</a>{% else %}<span></span>{% endif %}
+  <span class="pager-count">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">Older posts &rarr;</a>{% else %}<span></span>{% endif %}
+</nav>
+{% endif %}

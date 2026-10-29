@@ -2,7 +2,7 @@
 title: Lighting features of my engine
 description: "A video of the lighting in my engine: deferred shading with over 1000 lights, a Doom 3-style fallback, soft shadows for omni lights and more."
 date: 2009-12-09 08:33
-tags: [engine]
+tags: [engine, rendering, lighting]
 youtube: b3pquOn39EI
 ---
 The video runs through what the lighting in my engine can do.

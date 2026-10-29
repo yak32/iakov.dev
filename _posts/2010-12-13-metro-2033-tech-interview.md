@@ -2,7 +2,7 @@
 title: Notes on the Metro 2033 tech interview
 description: "Reading the Digital Foundry interview on Metro 2033's tech: deferred reflections, and a plan to try exponential shadow maps."
 date: 2010-12-13 04:32
-tags: [engine]
+tags: [engine, rendering, lighting]
 ---
 This [Digital Foundry interview about the tech of Metro 2033](http://www.eurogamer.net/articles/digitalfoundry-tech-interview-metro-2033) is inspiring reading. Shishkovtsov is a smart guy.
 

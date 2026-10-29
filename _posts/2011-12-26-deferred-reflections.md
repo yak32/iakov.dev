@@ -2,7 +2,7 @@
 title: Deferred reflections
 description: "How the Glow engine does planar reflections with deferred lighting, using the deferred reflections idea from Metro 2033."
 date: 2011-12-26 02:04
-tags: [engine]
+tags: [engine, rendering, lighting]
 image: /assets/img/2011/12/glow_deferred_reflections.jpg
 ---
 I spent a long time thinking about how to do planar reflections in an engine with deferred lighting. Rendering the lit scene, shadows included, into a separate render target is very expensive, because it doubles all the calculations. Then I came across the idea of deferred reflections in an article about the rendering technology in Metro 2033.

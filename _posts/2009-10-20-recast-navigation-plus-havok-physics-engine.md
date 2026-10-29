@@ -2,7 +2,7 @@
 title: Recast navigation with the Havok physics engine
 description: "A video of Recast navigation meshes running together with the Havok physics engine in my engine."
 date: 2009-10-20 10:26
-tags: [engine, ai]
+tags: [engine, ai, physics]
 youtube: WzFJMvE0L60
 ---
 This video shows [Recast](https://github.com/recastnavigation/recastnavigation) navigation working together with the Havok physics engine.

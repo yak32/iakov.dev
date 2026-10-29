@@ -3,7 +3,7 @@ title: Iron Cube vs reality
 subtitle: Looks like the trees from Iron Cube are real
 description: "A photo of an avenue of box-clipped trees that look just like the cubic trees in my voxel game Iron Cube."
 date: 2012-12-11 05:44
-tags: [game]
+tags: [game, voxel]
 image: /assets/img/2012/12/000-0028.jpg
 ---
 It turns out the trees from Iron Cube exist.

@@ -2,7 +2,7 @@
 title: Iron Cube on Android
 description: "A video of Iron Cube running on a Galaxy Note 2. Movement, shooting and rendering work; sound and AI are still to do."
 date: 2013-01-23 15:27
-tags: [game, iron-cube]
+tags: [game, iron-cube, rendering, ai, android]
 image: /assets/img/2013/01/iron_cube_android.jpg
 youtube: dqQ7ZjHgpYk
 ---

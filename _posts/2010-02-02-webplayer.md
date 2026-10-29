@@ -2,7 +2,7 @@
 title: Starting the web player
 description: "First day of work on a browser web player for the Glow engine, built as an ATL ActiveX control."
 date: 2010-02-02 10:47
-tags: [engine]
+tags: [engine, web]
 ---
 Today I started on a web player for the Glow engine, and there are results already. I created an ActiveX control based on ATL, attached the engine to it, and the whole thing runs in the ActiveX Test Container without problems.
 

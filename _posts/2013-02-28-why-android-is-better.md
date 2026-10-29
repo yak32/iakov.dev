@@ -2,7 +2,7 @@
 title: Why Android is better
 description: "My Galaxy Note 2 running Launcher 8, a home screen that makes an Android phone look like Windows Phone."
 date: 2013-02-28 12:00
-tags: [personal]
+tags: [personal, lighting, android]
 image: /assets/img/2013/02/GalaxyNote2.jpg
 ---
 This is my phablet, a Samsung Galaxy Note 2, running Launcher 8. It's a custom launcher that copies the Windows Phone home screen: square and wide tiles for the phone, settings, Dropbox, Skype, maps, the camera and a big clock with the date.

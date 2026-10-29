@@ -2,7 +2,7 @@
 title: More screenshots of the Sponza model
 description: "Two more views of the Sponza atrium in the Glow engine editor, from the upper gallery and from the ground floor."
 date: 2011-03-10 15:06
-tags: [engine]
+tags: [engine, lighting, editor]
 ---
 Two more views of Sponza in the Glow engine editor, following yesterday's close-up of the lion.
 

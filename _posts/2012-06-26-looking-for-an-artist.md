@@ -3,7 +3,7 @@ title: Art for Tarta
 subtitle: Looking for an artist
 description: "Tarta has outgrown my own art skills, so I'm looking for an artist. Also: a possible multiplayer character and a grass test."
 date: 2012-06-26 01:09
-tags: [game]
+tags: [game, multiplayer]
 image: /assets/img/2012/06/player.jpg
 ---
 I've reached the point where my art skills aren't good enough for the Tarta project, so I'm looking for a talented artist to help with it. If you're interested, send me a private message or leave a comment.

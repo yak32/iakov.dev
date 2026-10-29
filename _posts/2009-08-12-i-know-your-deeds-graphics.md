@@ -2,7 +2,7 @@
 title: Graphics tech in I Know Your Deeds
 description: "A tech video of the graphics in I Know Your Deeds: grass, trees, deferred shading, dynamic sky and a landscape painted in Photoshop."
 date: 2009-08-12 09:23
-tags: [engine, game]
+tags: [engine, game, rendering, lighting]
 youtube: vhlBdYBUnqE
 ---
 I'm going to upload a few tech videos from I Know Your Deeds, the demo I made for Intel Level Up. This one is about graphics.

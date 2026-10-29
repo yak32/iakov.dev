@@ -2,7 +2,7 @@
 title: Recording and replaying games in Iron Cube
 description: "How I added movie recording and playback to Iron Cube by saving the server's network snapshots, which also gives slow motion for trailers."
 date: 2013-12-02 05:13
-tags: [game, iron-cube, engine]
+tags: [game, iron-cube, engine, multiplayer]
 youtube: Wg4ERZKFAF8
 ---
 I've been reading books and articles about marketing mobile and indie games, and I find it more interesting than I expected. One of the most important things for marketing a game is a good trailer, so I decided to add movie recording and playback to Iron Cube and the Glow engine.

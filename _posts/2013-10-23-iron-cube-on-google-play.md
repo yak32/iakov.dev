@@ -3,12 +3,14 @@ title: Iron Cube is out on Google Play
 subtitle: Tank multiplayer combat in a voxel world
 description: "Iron Cube, my voxel tank combat game, is ported to Android and free on Google Play, with three levels, two tanks, Wi-Fi multiplayer and a bot."
 date: 2013-10-23 08:07
-tags: [game, iron-cube]
+tags: [game, iron-cube, voxel, ai, android]
 image: /assets/img/2013/01/iron_cube_android.jpg
 ---
 Iron Cube, a multiplayer tank combat game in a voxel world, is now ported to Android and free on the Google Play store.
 
 [![Get it on Google Play](/assets/img/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.glow3d.ironcube)
+
+<!--more-->
 
 It runs on any device with Android 4.0 (Ice Cream Sandwich) or later. I tested it on a Samsung Galaxy Note 3, a Galaxy Note 4 and a Galaxy Note 2.
 

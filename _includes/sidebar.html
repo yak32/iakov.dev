@@ -1,0 +1,16 @@
+<nav class="recent" aria-label="Recent posts">
+  <div class="recent-title">Recent posts</div>
+  {%- assign year = "" -%}
+  {%- for post in site.posts limit: 30 -%}
+    {%- assign y = post.date | date: "%Y" -%}
+    {%- if y != year -%}
+      {%- unless forloop.first %}</ul>{% endunless %}
+      <div class="recent-year">{{ y }}</div>
+      <ul>
+      {%- assign year = y -%}
+    {%- endif %}
+    <li><a href="{{ post.url | relative_url }}"{% if post.url == page.url %} class="current" aria-current="page"{% endif %}>{{ post.title }}</a></li>
+  {%- endfor %}
+  </ul>
+  <a class="recent-all" href="{{ '/archive/' | relative_url }}">All {{ site.posts.size }} posts &rarr;</a>
+</nav>

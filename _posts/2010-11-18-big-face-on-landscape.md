@@ -2,7 +2,7 @@
 title: Big face on the landscape
 description: "A random photo used as landscape texture while testing the Glow editor, plus FBX import, heightmap tracing and drag-and-drop assignment."
 date: 2010-11-18 16:45
-tags: [personal]
+tags: [personal, editor]
 ---
 [![A landscape in the editor textured with a giant photo of a face](/assets/img/2010/editor_face-58edac.jpg)](/assets/img/2010/editor_face-a18d6a.jpg)
 

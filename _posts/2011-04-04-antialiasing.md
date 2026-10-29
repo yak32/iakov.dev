@@ -2,7 +2,7 @@
 title: Antialiasing in the Glow engine
 description: "The Glow engine gets antialiasing through Directionally Localized Antialiasing, the post-process method used in The Force Unleashed 2."
 date: 2011-04-04 07:57
-tags: [engine]
+tags: [engine, rendering]
 ---
 The Glow engine finally has antialiasing.
 

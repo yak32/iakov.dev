@@ -2,7 +2,7 @@
 title: First steps with SSAO
 description: "Screen-space ambient occlusion in the Glow engine, plus a video of the new water."
 date: 2011-12-08 17:14
-tags: [engine]
+tags: [engine, lighting, water]
 ---
 ![Screen-space ambient occlusion in the Glow engine](/assets/img/2011/glow_ssao_stage2-ad2785.jpg)
 

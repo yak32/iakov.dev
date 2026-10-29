@@ -2,7 +2,7 @@
 title: Normal texture trick
 description: "A normal map trick that lets the same shaders read DXT1 and DXT5 bump textures, so the editor can skip DXT5 compression."
 date: 2010-12-01 12:58
-tags: [engine]
+tags: [engine, rendering, editor]
 ---
 I found an interesting trick for reading normals from textures, described on the [NVIDIA Texture Tools wiki](https://github.com/castano/nvidia-texture-tools/wiki/NormalMapCompression). In short, it lets the same shaders use both DXT1 and DXT5 bump textures.
 

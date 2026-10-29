@@ -2,7 +2,7 @@
 title: "New game prototype: Tarta"
 description: "Tarta is a new voxel game prototype built in three weeks: an infinite random voxel world, terrain editing, a day/night cycle and PhysX."
 date: 2012-03-20 14:41
-tags: [game, voxel]
+tags: [game, voxel, rendering, lighting]
 youtube: -Q3I_B19HCQ
 ---
 I've started a new game prototype called Tarta. The video above is from the first prototype, which took 3 weeks to build.
@@ -14,6 +14,8 @@ So far the prototype has:
 - a day/night cycle
 - physics through PhysX (press F5 to turn it on)
 - HDR, lens flare, dynamic shadows, reflective and refractive water and deferred shading, all from the Glow engine
+
+<!--more-->
 
 It's obviously inspired by Minecraft, but it goes in a different direction. It will be more about survival, with various enemies and more shooter and adventure elements, and terraforming will play a big part in the gameplay. The gameplay document already runs to several pages of ideas.
 

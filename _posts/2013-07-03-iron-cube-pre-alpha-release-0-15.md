@@ -3,12 +3,14 @@ title: Iron Cube 0.15
 subtitle: Tank multiplayer combat in a voxel world
 description: "Iron Cube 0.15 adds AI bots, dynamic navigation meshes, flood-fill voxel lighting, an OpenGL renderer with water and a working level editor."
 date: 2013-07-03 07:31
-tags: [game, iron-cube]
+tags: [game, iron-cube, rendering, lighting, voxel]
 youtube: gOde2vm685M
 ---
 [![Download Iron Cube 0.15 from Mod DB](http://button.moddb.com/download/medium/56386.png)](http://www.moddb.com/games/iron-cube/downloads/iron-cube-015)
 
 I spent several weeks preparing this Iron Cube release, version 0.15. It has a lot of new features: AI bots, dynamic navigation meshes, new voxel-based lighting, and a new OpenGL renderer with water.
+
+<!--more-->
 
 The AI bots are in the game now, and they are fairly smart. A bot can still shoot a teammate who wanders into its line of fire, but I will fix that soon. Bots follow their leader (the player), find a good route to the enemy and move out of the player's way. I'm already wondering how to make them a little dumber.
 

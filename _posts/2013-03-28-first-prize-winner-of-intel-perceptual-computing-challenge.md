@@ -3,7 +3,7 @@ title: First prize in the Intel Perceptual Computing Challenge
 subtitle: Mercury won first prize in the Intel Perceptual Computing Challenge
 description: "My Mercury prototype, a voxel sculpting tool controlled by hand gestures, won first prize in the Intel Perceptual Computing Challenge."
 date: 2013-03-28 00:52
-tags: [challenge, intel, winner]
+tags: [contest, voxel]
 image: /assets/img/2013/03/perc-challenge-banner.jpg
 ---
 I won first prize in the Intel Perceptual Computing Challenge with the [Mercury prototype](/2013/03/better-video-of-mercury-prototype/).

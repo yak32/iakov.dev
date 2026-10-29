@@ -17,6 +17,9 @@ social:
     - https://twitter.com/yak32
 
 permalink: /:year/:month/:title/
+excerpt_separator: "<!--more-->"
+paginate: 10
+paginate_path: "/page:num/"
 timezone: Europe/London
 markdown: kramdown
 highlighter: rouge
@@ -32,6 +35,7 @@ defaults:
     values: { layout: default }
 
 plugins:
+  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
 

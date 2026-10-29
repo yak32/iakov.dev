@@ -3,7 +3,7 @@ title: Steam Big Picture on a TV
 subtitle: Console gaming with Steam Big Picture
 description: "I connected my Intel Ultrabook to a 46-inch TV, bought a wireless Xbox 360 controller and started playing my Steam library in Big Picture mode."
 date: 2013-01-02 15:59
-tags: [personal, steam]
+tags: [personal]
 image: /assets/img/2013/01/BigPicture1.jpg
 ---
 I've finally become a console player, only without a console. Steam's Big Picture mode got me excited. I have a big library of games on Steam and hardly played any of it, because playing at my workplace isn't convenient.

@@ -2,7 +2,7 @@
 title: I Know Your Deeds demo for Intel Level Up 2009
 description: "Download the I Know Your Deeds demo I submitted to Intel Level Up 2009: one level, barricades, and a race to find cover before night."
 date: 2009-08-20 09:10
-tags: [game]
+tags: [game, contest]
 ---
 [Here is my current demo](http://haemoglobin-game.com/IknowYourDeedsSetup.msi) (about 50 MB). It has one level, and for now there is more graphics than gameplay in it. This is the build I submitted to the Intel Level Up 2009 competition.
 

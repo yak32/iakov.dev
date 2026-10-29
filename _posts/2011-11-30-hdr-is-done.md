@@ -2,7 +2,7 @@
 title: HDR, finally
 description: "After four months without updates, HDR rendering in the Glow engine works, using 64-bit float render targets and bloom."
 date: 2011-11-30 16:45
-tags: [engine]
+tags: [engine, rendering]
 ---
 Phew, four months without an update. I came back to HDR and finally cracked it.
 

@@ -3,7 +3,7 @@ title: 6000 animated entities in the Glow engine
 subtitle: A performance test of the Glow engine
 description: "A Glow engine performance test with 6000 animated entities in one frame and no special optimisation such as instancing."
 date: 2012-12-06 02:53
-tags: [engine]
+tags: [engine, performance]
 youtube: NSS2AC4OMFY
 ---
 The video above is a stress test of the Glow engine with 6000 animated entities in one frame.

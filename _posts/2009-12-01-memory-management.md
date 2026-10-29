@@ -2,10 +2,9 @@
 title: A pool allocator for small objects
 description: "Small objects in my engine now get their memory from a pool allocator, which makes small allocations three times faster."
 date: 2009-12-01 09:47
-tags: [engine]
+tags: [engine, performance, cpp]
 ---
 ![Little Zombie Susie screenshot](/assets/img/2009/littlezombiesusie2-009771.jpg)
-
 
 The standard C++ allocator usually keeps free memory chunks in a linked list, so finding a free chunk isn't fast, and small objects suffer the most. I decided to speed up allocation with a dedicated pool allocator. Every small object in the engine now derives from a base class that takes its memory from the pool and gives it back there.
 

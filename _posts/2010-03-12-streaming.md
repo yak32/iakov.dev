@@ -2,7 +2,7 @@
 title: Streaming data from the internet
 description: "The Glow engine now streams data from local files, zip archives and HTTP or FTP, which the web player needs."
 date: 2010-03-12 08:29
-tags: [engine]
+tags: [engine, web]
 ---
 The web player needs data from the internet, so I had to implement streaming. It works now, through an extra layer that sits between the engine and wherever the data comes from.
 

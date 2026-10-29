@@ -2,12 +2,14 @@
 title: Intel Level Up demo and dynamic navigation meshes
 description: "I finished my Intel Level Up 2009 demo, and here is how the dynamic navigation meshes in my engine rebuild tiles when objects move."
 date: 2009-08-11 09:25
-tags: [engine, game]
+tags: [engine, game, rendering, ai, contest]
 youtube: Y4KM32uYOgY
 ---
 Today I finished the game demo for Intel Level Up 2009. It cost me three nights without sleep. Some things are still not implemented, but the overall picture is good. I'll prepare a longer video and the demo itself later.
 
 For now, here is a short video of the dynamic navigation meshes in my engine. They are based on TileMesh and they are fast: the whole level (300x300) builds in a separate thread in 5 seconds on a single-core PC, with a tile size of 32. Don't look at the frame rate. That's deferred shading on an old PC.
+
+<!--more-->
 
 Here is how it works:
 

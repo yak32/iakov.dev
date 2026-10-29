@@ -2,7 +2,7 @@
 title: Water, finally
 description: "The first stage of water in the Glow engine, with reflection and refraction, alongside HDR, antialiasing and linear rendering."
 date: 2011-12-06 16:38
-tags: [engine]
+tags: [engine, rendering, water]
 ---
 ![Water with reflection and refraction in the Glow engine](/assets/img/2011/glow_reflection-30aa52.jpg)
 

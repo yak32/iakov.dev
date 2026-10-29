@@ -2,7 +2,7 @@
 title: Recast dynamic navigation meshes in gameplay
 description: "Examples of Recast dynamic navigation meshes used in actual gameplay rather than in a tech demo."
 date: 2009-12-07 15:59
-tags: [engine, ai]
+tags: [engine, ai, physics]
 youtube: Q0rZRqXM-4g
 ---
 Here are some examples of Recast dynamic navigation meshes used in gameplay.

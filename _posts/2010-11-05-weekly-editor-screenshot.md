@@ -2,7 +2,7 @@
 title: Weekly editor screenshot
 description: "Deferred shading, shadow maps, clipmap landscapes and axis-constrained mouse editing in the Glow editor, plus a two-month plan."
 date: 2010-11-05 16:38
-tags: [engine]
+tags: [engine, rendering, lighting, editor]
 ---
 This week's editor image.
 

@@ -2,7 +2,7 @@
 title: A new day, a new picture with houses
 description: "Testing atmospheric scattering, light intensity, a dynamic sun and time of day on a row of small houses in the Glow engine."
 date: 2011-12-02 18:19
-tags: [engine]
+tags: [engine, lighting]
 ---
 I'm playing with the combination of atmospheric scattering, light intensity, a dynamic sun and the time of day.
 

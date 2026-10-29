@@ -2,7 +2,7 @@
 title: Intel TBB is in the engine
 description: "Intel Threading Building Blocks is integrated, and work starts on a concurrent, templated scene graph that several threads can read at once."
 date: 2011-02-02 08:22
-tags: [engine]
+tags: [engine, performance, cpp]
 ---
 Intel Threading Building Blocks is now built into the engine. It's a good library with a lot of features.
 

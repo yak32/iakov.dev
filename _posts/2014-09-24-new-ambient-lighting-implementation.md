@@ -3,7 +3,7 @@ title: Ambient lighting with vertex colours
 subtitle: New ambient lighting implementation
 description: "I moved Iron Cube's ambient lighting into vertex colours. It looks the same as before but should render faster."
 date: 2014-09-24 13:48
-tags: [game, iron-cube]
+tags: [game, iron-cube, rendering, lighting, voxel]
 image: /assets/img/2014/09/ambient_vertex_colors.jpg
 ---
 I rewrote the ambient lighting in Iron Cube. The ambient term is now stored in the vertex colours of the voxel mesh.
