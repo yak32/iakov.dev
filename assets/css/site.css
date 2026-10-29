@@ -1,17 +1,17 @@
-/* Palette: warm stone page, paper cards, slate ink and an oxidised teal
+/* Palette: light grey page, white cards, slate ink and an oxidised teal
    accent taken from weathered metal in the AEZ art. */
 :root {
-  --bg: #ebe7de;
-  --surface: #fbfaf6;
-  --fg: #1f2a2e;
-  --muted: #4f5d63;
-  --faint: #5d696e;
-  --line: #dcd6ca;
+  --bg: #f1f3f4;
+  --surface: #ffffff;
+  --fg: #1d2629;
+  --muted: #4d5a5f;
+  --faint: #5f6b70;
+  --line: #e1e5e7;
   --accent: #146f62;
   --accent-hover: #0f5a50;
-  --accent-soft: #e1eee9;
-  --code-bg: #f0ede6;
-  --shadow: 0 1px 2px rgba(60, 50, 30, .06), 0 4px 16px rgba(60, 50, 30, .05);
+  --accent-soft: #e3f0ec;
+  --code-bg: #f3f5f6;
+  --shadow: 0 1px 2px rgba(20, 30, 35, .05), 0 4px 16px rgba(20, 30, 35, .04);
   --main: 46rem;
   --side: 15.5rem;
 }
@@ -19,7 +19,7 @@
   :root {
     --bg: #0f1416;
     --surface: #172024;
-    --fg: #e4e2dc;
+    --fg: #e5e8e9;
     --muted: #a3adb0;
     --faint: #8a9497;
     --line: #253035;
